@@ -1,1 +1,1 @@
-<?php echo "module exit ok" ?>
+<?php echo "module exiasdasdast ok" ?>
