@@ -64,10 +64,10 @@ class Players extends \yii\db\ActiveRecord
 
     /**
      * {@inheritdoc}
-     * @return \common\models\query\PlayersQuery the active query used by this AR class.
+     * @return \mertoncel\content\models\query\PlayersQuery the active query used by this AR class.
      */
     public static function find()
     {
-        return new \common\models\query\PlayersQuery(get_called_class());
+        return new \mertoncel\content\models\query\PlayersQuery(get_called_class());
     }
 }
