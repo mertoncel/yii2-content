@@ -1,5 +1,5 @@
 <?php
-namespace mertoncel\modules\content\Controllers;
+namespace mertoncel\content\controllers;
 
 class DefaultController extends \yii\web\Controller
 {
