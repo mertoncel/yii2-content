@@ -10,10 +10,10 @@ composer require mertoncel/yii2-content
 
 ```
 'modules' => [
-        'scouting' => [
-            'class' => 'backend\modules\scouting\Scouting',
-        ]
-    ],
+  'content' => [
+  'class' => 'mertoncel\content\Module'
+  ]
+],
 ```    
 3. Xampp ya da Vagrant kullanılarak ayağa kaldırılan yii2 advanced projesinin link kısmının sonuna;
 * Backend için
