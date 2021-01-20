@@ -15,7 +15,14 @@ composer require mertoncel/yii2-content
   ]
 ],
 ```    
-3. Xampp ya da Vagrant kullanılarak ayağa kaldırılan yii2 advanced projesinin link kısmının sonuna;
+3. Veritabanına modül ile alakalı tabloların yüklenebilmesi için aşağıdaki komutla migration  yapılmalıdır.
+```  
+php yii migrate/up --migrationPath=@vendor/mertoncel/yii2-content/migrations
+```  
+
+
+
+4. Xampp ya da Vagrant kullanılarak ayağa kaldırılan yii2 advanced projesinin link kısmının sonuna;
 * Backend için
 ```
 ?r=content/backend/players/index
