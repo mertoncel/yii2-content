@@ -2,10 +2,10 @@
 
 ### PROJE KURULUMU
 1. yii2 advanced template içerisine modülümüzü import etmeliyiz. terminali bu dosya yolu üzerine ayarlayıp terminale aşağıdaki komutu yapıştırıp modülü import etmeliyiz.
-```
+``
 composer require mertoncel/yii2-content
 ```
-2. yii2-advanced projesinin backend\config\main.php dosyasına modülü eklemeliyiz.
+2. yii2-advanced projesinin backend\config\main.php ya da  frontend\config\main.php dosyasına modülü eklemeliyiz.
 ```
 'modules' => [
         'scouting' => [
