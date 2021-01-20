@@ -1,6 +1,6 @@
 <?php
 
-namespace mertoncel\content\controllers;
+namespace mertoncel\content\controllers\backend;
 
 use Yii;
 use mertoncel\content\models\Players;
