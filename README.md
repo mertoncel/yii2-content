@@ -37,7 +37,7 @@ uzantıları eklenerek modüle ulaşılır.
 
 ## EKRAN GÖRÜNTÜLERİ
 
-### MODULE DOSYA YAPISI
+### Module dosya yapısı
 ![alt text](https://i.imgur.com/DCeIvcE.png)
 ### Backendde veritabanındaki oyuncuları görüntüleme
 ![alt text](https://i.imgur.com/ESAitNT.png)
